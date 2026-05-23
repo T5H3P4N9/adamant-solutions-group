@@ -1,0 +1,2 @@
+# azomakhanye-static
+site
