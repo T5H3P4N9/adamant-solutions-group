@@ -56,8 +56,8 @@ h1,h2,h3,h4,h5,.display,.h2,.h3{font-family:"Oswald",sans-serif;text-transform:u
 .nav.scrolled{background:rgba(255,255,255,.96);backdrop-filter:blur(10px);border-bottom:1px solid var(--border);box-shadow:0 1px 3px rgba(0,0,0,.05)}
 .nav-inner{display:flex;align-items:center;justify-content:space-between;height:80px}
 .brand{display:flex;align-items:center;gap:.75rem}
-.brand-mark{display:inline-flex;width:100px;height:40px;align-items:center;justify-content:center;background:var(--gold);color:var(--ink);font-family:"Oswald";font-weight:700;font-size:1.25rem;}
-.brand-mark img{ border-radius:12px;}
+.brand-mark{display:inline-flex;width:100px;height:40px;align-items:center;justify-content:center;background:var();color:var(--ink);font-family:"Oswald";font-weight:700;font-size:1.25rem;}
+.brand-mark img{ border-radius:12px; height:80px;}
 .brand-text{display:flex;flex-direction:column;line-height:1.05}
 .brand-name{font-family:"Oswald";font-weight:700;text-transform:uppercase;letter-spacing:.08em;font-size:1.05rem;color:var(--ink)}
 .brand-name.light{color:#fff}
@@ -231,6 +231,8 @@ h1,h2,h3,h4,h5,.display,.h2,.h3{font-family:"Oswald",sans-serif;text-transform:u
   .tl{grid-template-columns:repeat(3,1fr)}
   .contact-grid{grid-template-columns:1fr}
   .footer-grid{grid-template-columns:1fr 1fr;gap:2rem}
+  .brand-mark img{height: 60px; width:60px;}
+  .brand-mark{}
 }
 @media (max-width:640px){
   .section{padding:4rem 0}
